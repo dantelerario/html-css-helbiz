@@ -14,6 +14,10 @@
   padding-bottom: 46px;
 }
 
+.relative {
+  position: relative;
+}
+
 .fixed {
   position: fixed;
   top: 0;
@@ -83,9 +87,15 @@ li.p-5:nth-child(2) {
   border-right: 1px solid black;
 }
 
-#video-header {
-  min-width: 100%;
+#jumbotron {
   max-height: 630px;
+}
+
+#video-header {
+  width: 100%;
+  min-width: 100%;
   filter: brightness(40%);
   z-index: -10;
+  overflow: hidden;
+  object-fit: fill;
 }
