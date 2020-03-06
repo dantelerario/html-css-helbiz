@@ -9,7 +9,7 @@
 
 /* UTILITIES */
 
-.row.blue {
+.row {
   padding-top: 23px;
   padding-bottom: 46px;
 }
@@ -92,10 +92,17 @@ li.p-5:nth-child(2) {
 }
 
 #video-header {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-height: 630px;
+  z-index: -100;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#video-header video {
   width: 100%;
   min-width: 100%;
   filter: brightness(40%);
-  z-index: -10;
-  overflow: hidden;
-  object-fit: fill;
 }
