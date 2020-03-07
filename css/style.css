@@ -13,6 +13,10 @@
   padding-bottom: 46px;
 }
 
+.float {
+  float: left;
+}
+
 .relative {
   position: relative;
 }
@@ -21,6 +25,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 .block {
@@ -73,12 +78,14 @@
 
 .ul-header-fix a {
   text-decoration: none;
-  color: black;
+  color: #000;
+  cursor: pointer;
 }
 
 .ul-header-fix li {
   display: inline-block;
   padding: 5px 20px 5px;
+  z-index: 2;
 }
 
 li.p-5 {
@@ -92,6 +99,7 @@ li.p-5:nth-child(2) {
 
 #jumbotron {
   max-height: 630px;
+  z-index: -100;
 }
 
 #video-header {
@@ -135,6 +143,8 @@ li.p-5:nth-child(2) {
 /* TOP MAIN */
 
 #top-main {
+  width: 100%;
+  max-width: 100%;
   margin: 150px auto 0;
   text-align: center;
   color: #000;
@@ -155,11 +165,36 @@ li.p-5:nth-child(2) {
 }
 
 #top-main a {
+  position: relative;
   font-size: 120%;
   font-weight: 500;
   color: #0070C8;
+  text-decoration: none;
 }
 
 #top-main a:after {
-  content: '\f054'
+  position: absolute;
+  top: 4px;
+  right: -15px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-weight: 700;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+#top-main a:hover {
+  text-decoration: underline;
+}
+
+.img-main {
+  padding: 50px 0 50px;
+  width: 50%;
+}
+
+/* MID MAIN */
+
+#mid-main {
+  background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
+  background-size: fill;
 }
