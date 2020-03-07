@@ -194,7 +194,12 @@ li.p-5:nth-child(2) {
 
 /* MID MAIN */
 
+#mid-main-jumbo {
+  background: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
 #mid-main {
-  background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
-  background-size: fill;
+  text-align: center;
 }
