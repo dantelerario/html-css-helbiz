@@ -210,6 +210,10 @@
    margin-right: calc((100% / 12) * 2);
   }
 
+  .offset-xs-5-reverse {
+   margin-right: calc((100% / 12) * 5);
+  }
+
   .offset-xs-1 {
     margin-left: calc(100% / 12);
   }
@@ -265,6 +269,10 @@
    margin-right: calc((100% / 12) * 2);
   }
 
+  .offset-md-5-reverse {
+   margin-right: calc((100% / 12) * 5);
+  }
+
   .offset-md-1 {
     margin-left: calc(100% / 12);
   }
@@ -318,6 +326,10 @@
 
   .offset-lg-2-reverse {
    margin-right: calc((100% / 12) * 2);
+  }
+
+  .offset-lg-5-reverse {
+   margin-right: calc((100% / 12) * 5);
   }
 
   .offset-lg-1 {
