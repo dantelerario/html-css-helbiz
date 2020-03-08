@@ -202,4 +202,99 @@ li.p-5:nth-child(2) {
 
 #mid-main {
   text-align: center;
+  min-height: 1px;
+}
+
+#mid-main-left h2 {
+  font-size: 210%;
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 180px;
+  width: 500px;
+  color: #000;
+}
+
+#mid-main-center {
+  /* da chiedere, senno' il div scompare */
+  min-height: 1px;
+}
+
+#mid-main-center img {
+  position: absolute;
+  top: -330px;
+  left: 20%;
+  width: 60%;
+}
+
+#mid-main-right h4 {
+  font-size: 130%;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 70px;
+  color: #000;
+}
+
+#mid-main-right span {
+  font-size: 100%;
+  text-align: left;
+  padding-top: 10px;
+  color: #000;
+}
+
+#mid-main-bottom-cont {
+  background: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-top: 150px;
+}
+
+#mid-main-bottom-left {
+  min-height: 1px;
+}
+
+#mid-main-bottom-right {
+  position: relative;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+#mid-main-bottom-right h1 {
+  font-size: 295%;
+  margin-bottom: 15px;
+}
+
+#mid-main-bottom-right h2 {
+  display: block;
+  font-size: 120%;
+  font-weight: 500;
+  padding-bottom: 20px;
+  width: 315px;
+  margin-left: 50px;
+}
+
+#mid-main-bottom-right a {
+  position: relative;
+  font-size: 120%;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mid-main-bottom-right a:after {
+  position: absolute;
+  top: 4px;
+  right: -15px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-weight: 700;
+  margin-left: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mid-main-bottom-right a:hover {
+  text-decoration: underline;
 }
