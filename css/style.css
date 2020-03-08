@@ -526,3 +526,9 @@ li.p-5:nth-child(2) {
 #bottom-footer img {
   width: 28%;
 }
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  .display-none-md {
+    display: none;
+  }
+}
