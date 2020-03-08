@@ -200,6 +200,8 @@ li.p-5:nth-child(2) {
   height: 500px;
 }
 
+/* MID-MAIN START */
+
 #mid-main {
   text-align: center;
   min-height: 1px;
@@ -241,6 +243,8 @@ li.p-5:nth-child(2) {
   color: #000;
 }
 
+/* MID-MAIN-BOTTOM START */
+
 #mid-main-bottom-cont {
   background: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
   background-size: cover;
@@ -252,11 +256,10 @@ li.p-5:nth-child(2) {
   min-height: 1px;
 }
 
-#mid-main-bottom-right {
+#inside-mbr {
   position: relative;
-  top: 50%;
+  top: 150px;
   left: 25%;
-  transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
 }
@@ -297,4 +300,116 @@ li.p-5:nth-child(2) {
 
 #mid-main-bottom-right a:hover {
   text-decoration: underline;
+}
+
+/* MID-MAIN-BOTTOM2 START */
+
+#mid-main-bottom2-cont {
+  height: 500px;
+}
+
+#mid-main-bottom2-left {
+  background: url("https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png") bottom no-repeat, linear-gradient(#41566a, #252f38) 50% no-repeat;
+  background-size: 530px, 100%;
+  margin-right: 10px;
+  min-height: 600px;
+  max-width: 624px;
+  color: #fff;
+}
+
+#mid-main-bottom2-left h1 {
+  font-size: 295%;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+#mid-main-bottom2-left h2 {
+  display: block;
+  font-size: 120%;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+#mid-main-bottom2-left a {
+  position: relative;
+  font-size: 120%;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+#mid-main-bottom2-left a:after {
+  position: absolute;
+  top: 4px;
+  right: -15px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-weight: 700;
+  margin-left: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mid-main-bottom2-left a:hover {
+  text-decoration: underline;
+}
+
+#inside-mb2l {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+#mid-main-bottom2-right {
+  background: url("https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
+  background-size: cover;
+  min-height: 600px;
+  margin-left: 10px;
+  max-width: 624px;
+  color: #fff;
+  text-align: center;
+}
+
+#mid-main-bottom2-right h1 {
+  font-size: 295%;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+#mid-main-bottom2-right h2 {
+  display: block;
+  font-size: 120%;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+#mid-main-bottom2-right a {
+  position: relative;
+  font-size: 120%;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mid-main-bottom2-right a:after {
+  position: absolute;
+  top: 4px;
+  right: -15px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-weight: 700;
+  margin-left: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mid-main-bottom2-right a:hover {
+  text-decoration: underline;
+}
+
+#inside-mb2r {
+  position: relative;
+  color: #fff;
+  text-align: center;
 }
